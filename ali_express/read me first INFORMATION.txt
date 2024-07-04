@@ -1,0 +1,30 @@
+INFORMATION:
+1.Install Process
+2.Program Information
+
+
+1.Install Process:
+	step 1: Download python software. (32bit/64bit)
+	step 2: Install python software on your windows system.
+	step 3: Run command prompt to run as administrator
+			step 1: Type to pip install pip 
+			step 2: Type to pip install selenium
+			step 3: Type to pip install webdriver-manager
+			step 4: Type to pip install pandas
+			(notes: This commands one by one type and check to successfully installed these all commands)
+
+2.Program Information:
+	Line 1 to 15    - Import selenium, webdriver, pandas
+	Line 17	        - Class name 
+	Line 19 to 24   - Inputs
+	Line 25 to 29   - save to csv file in result folder
+	Line 31         - Install chromedriver command
+	Line 33 to 36   - Use def and get link to send chrome
+	Line 38 to 60   - use def to search items and set minimum and maximum price
+	Line 62 to 175  - To check(reviews , buy orders) and get data in open item def
+	Line 178 to 206 - use def to select items
+	Line 208 to 240 - use def to change next page
+	Line 243 to 246 - To merge class and def functions
+
+Run the code,if any python supported software, and last all data collected to save csv file. So the csv file located in result folder, please check it. 
+I attatched sample csv file in result folder, thanks
